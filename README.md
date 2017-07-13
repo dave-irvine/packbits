@@ -26,5 +26,4 @@ Encode or decode a string of hex bytes with or without separating spaces.
 
 ### Examples
 
-See examples/ directory
-
+See [examples/](https://github.com/dave-irvine/packbits/tree/master/examples) directory
