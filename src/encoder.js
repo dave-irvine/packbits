@@ -1,5 +1,8 @@
 var { hexToBytes, padHex } = require('./utils');
 
+/*
+ * This is a reimplementation of https://github.com/psd-tools/packbits encoder
+ */
 function encode(data) {
   if (data.indexOf(' ') >= 0) {
     data = data.split(' ').join('');

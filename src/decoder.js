@@ -1,5 +1,8 @@
 var { hexToBytes, padHex } = require('./utils');
 
+/*
+ * This is a reimplementation of https://en.wikipedia.org/wiki/PackBits decoder
+ */
 function decode(data) {
   if (data.indexOf(' ') >= 0) {
     data = data.split(' ').join('');
