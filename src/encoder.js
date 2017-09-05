@@ -16,7 +16,7 @@ function encode(data) {
   }
 
   if (len === 1) {
-    return '00' + bytesToHex(ab);
+    return '00' + padHex(ab.toString(16));
   }
 
   var output = '';
